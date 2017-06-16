@@ -17,24 +17,33 @@ nav ul li {
   float: left;
 }
 
-@media screen and (max-width: 1000px) {
-  nav ul{
-    position: absolute;
-  }
-  nav ul li {
-    float: none;
-  }
-  #home{
-    padding-top: 16em;
-  }
-}
-
 nav ul li a {
   display: block;
   padding: 2em;
   color: white;
   text-align: center;
   text-decoration: none;
+}
+
+@media screen and (max-width: 1000px) {
+  nav ul {
+    position: absolute;
+  }
+  nav ul li {
+    float: none;
+  }
+  #home {
+    padding-top: 16em;
+  }
+}
+
+section {
+  padding: 6em;
+  height: 90vh;
+}
+
+section h1 {
+  text-align: center;
 }
 
 nav ul li a:hover {
@@ -55,13 +64,4 @@ nav ul li a:hover {
 
 .dropdown:hover .nav_dropdown {
   display: block;
-}
-
-section {
-  padding: 6em;
-  height: 90vh;
-}
-
-section h1{
-  text-align: center;
 }
