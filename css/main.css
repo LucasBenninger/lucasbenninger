@@ -1,21 +1,32 @@
-body{
-}
-nav ul{
+body {margin: 0;}
+
+nav ul {
   list-style-type: none;
-  overflow: hidden;
+  margin: 0;
   padding: 0;
+  overflow: hidden;
+  width: 100%;
+  background-color: rgb(28, 28, 28);
 }
-nav ul li{
+
+nav ul li {
   float: left;
 }
-nav ul li a{
+
+@media screen and (max-width: 600px) {
+  nav ul li {
+    float: none;
+  }
+}
+
+nav ul li a {
   display: block;
   padding: 2em;
-  background-color: rgb(28, 28, 28);
   color: white;
   text-align: center;
   text-decoration: none;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
   background-color: rgb(14, 14, 14);
 }
