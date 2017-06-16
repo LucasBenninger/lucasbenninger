@@ -18,6 +18,9 @@ nav ul li {
 }
 
 @media screen and (max-width: 1000px) {
+  nav ul{
+    position: absolute;
+  }
   nav ul li {
     float: none;
   }
