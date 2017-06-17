@@ -96,8 +96,11 @@ nav ul li a:hover {
 }
 
 
-/*Mobile Modifiers CSS*/
+/*Mobile Modifiers*/
 @media screen and (max-width: 1000px) {
+  body{
+    font-size: 1.25em; /*Larger font for smaller screens*/
+  }
   nav ul {
     position: absolute;
   }
