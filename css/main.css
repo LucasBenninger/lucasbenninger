@@ -105,8 +105,8 @@ nav ul li a:hover {
 
 @media screen and (max-width: 1000px) {
   body {
-    font-size: 1.25em;
     /*Larger font for smaller screens*/
+    /*font-size: 1.25em;*/
   }
   nav ul {
     position: absolute;
