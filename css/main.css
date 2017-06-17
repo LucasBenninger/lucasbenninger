@@ -25,6 +25,21 @@ nav ul li a {
   text-decoration: none;
 }
 
+section {
+  margin: 0;
+  padding-top: 6.25em;
+  height: 90vh;
+  overflow: hidden;
+}
+
+section h1 {
+  text-align: center;
+}
+
+nav ul li a:hover {
+  background-color: rgb(14, 14, 14);
+}
+
 .projectList {
   margin: 0;
   list-style: none;
@@ -61,21 +76,6 @@ nav ul li a {
   font-size: 0.75em;
 }
 
-section {
-  margin: 0;
-  padding-top: 6.25em;
-  height: 90vh;
-  overflow: hidden;
-}
-
-section h1 {
-  text-align: center;
-}
-
-nav ul li a:hover {
-  background-color: rgb(14, 14, 14);
-}
-
 .center {
   text-align: center;
 }
@@ -108,6 +108,9 @@ nav ul li a:hover {
 
 #projects {
   text-align: center;
+  min-height: 90vh;
+  display: inline-block;
+  overflow: visible;
 }
 
 
