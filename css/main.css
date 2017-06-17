@@ -61,18 +61,6 @@ nav ul li a {
   font-size: 0.75em;
 }
 
-@media screen and (max-width: 1000px) {
-  nav ul {
-    position: absolute;
-  }
-  nav ul li {
-    float: none;
-  }
-  #home {
-    padding-top: 16em;
-  }
-}
-
 section {
   padding: 6em;
   height: 90vh;
@@ -105,4 +93,23 @@ nav ul li a:hover {
 
 .dropdown:hover .nav_dropdown {
   display: block;
+}
+
+
+/*Mobile Modifiers CSS*/
+@media screen and (max-width: 1000px) {
+  nav ul {
+    position: absolute;
+  }
+  nav ul li {
+    float: none;
+  }
+  #home {
+    padding-top: 16em;
+  }
+
+  section{
+    text-align: center;
+    overflow: scroll;
+  }
 }
