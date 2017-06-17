@@ -30,12 +30,12 @@ nav ul li a {
   list-style: none;
 }
 
-.projectList li{
+.projectList li {
   display: inline-block;
   border: thin black;
 }
 
-.projectList li a{
+.projectList li a {
   display: block;
   padding: 6em;
   width: 14em;
@@ -49,12 +49,11 @@ nav ul li a {
   text-align: center;
 }
 
-.projectList li a:hover{
+.projectList li a:hover {
   background-color: rgb(14, 14, 14);
 }
 
-
-.projectList li a span{
+.projectList li a span {
   padding-top: .5em;
   display: block;
   font-weight: normal;
@@ -67,7 +66,7 @@ section {
   overflow: hidden;
 }
 
-.center{
+.center {
   text-align: center;
 }
 
@@ -97,9 +96,11 @@ nav ul li a:hover {
 
 
 /*Mobile Modifiers*/
+
 @media screen and (max-width: 1000px) {
-  body{
-    font-size: 1.25em; /*Larger font for smaller screens*/
+  body {
+    font-size: 1.25em;
+    /*Larger font for smaller screens*/
   }
   nav ul {
     position: absolute;
@@ -110,10 +111,13 @@ nav ul li a:hover {
   #home {
     padding-top: 16em;
   }
-
-  section{
+  section {
     text-align: center;
     overflow-y: scroll;
     overflow-x: hidden;
+    padding: 0;
+  }
+  .projectList li a {
+    width: 50%;
   }
 }
