@@ -124,13 +124,17 @@ nav ul li a:hover {
   nav ul li {
     float: none;
   }
-  #home {
-    padding-top: 16em;
-  }
   section {
     text-align: center;
     overflow-y: scroll;
     overflow-x: hidden;
+    padding: 0;
+  }
+  #home {
+    padding-top: 16em;
+    overflow: hidden;
+  }
+  #home p{
     padding: 0;
   }
   .projectList li a {
