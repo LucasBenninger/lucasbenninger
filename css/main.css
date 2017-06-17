@@ -63,7 +63,7 @@ nav ul li a {
 
 section {
   margin: 0;
-  padding-top: 6em;
+  padding-top: 6.25em;
   height: 90vh;
   overflow: hidden;
 }
@@ -94,6 +94,16 @@ nav ul li a:hover {
 
 .dropdown:hover .nav_dropdown {
   display: block;
+}
+
+#home {
+  background-image: url("../img/background.png");
+  background-size: cover;
+  color: white;
+}
+
+#home p{
+  padding-left: 12em;
 }
 
 #projects {
