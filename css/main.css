@@ -140,8 +140,12 @@ nav ul li a:hover {
   #home p{
     padding: 0;
   }
+  #projects{
+    padding-top: 2em;
+  }
+  .projectList li{
+    overflow: hidden;
+  }
   .projectList li a {
-    width: 50%;
-    text-align: center;
   }
 }
