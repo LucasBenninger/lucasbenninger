@@ -142,5 +142,6 @@ nav ul li a:hover {
   }
   .projectList li a {
     width: 50%;
+    text-align: center;
   }
 }
