@@ -30,6 +30,7 @@ section {
   padding-top: 6.25em;
   height: 90vh;
   overflow: hidden;
+  width: 100%;
 }
 
 section h1 {
