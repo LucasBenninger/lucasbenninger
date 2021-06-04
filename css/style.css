@@ -15,6 +15,7 @@ a:visited {
 }
 
 nav ul {
+  z-index: 1;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -121,9 +122,9 @@ section > hr {
 }
 
 .card-links {
-  margin: 0px;
-  padding: 0px;
-  text-align: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 .card {
@@ -131,7 +132,9 @@ section > hr {
   transition: 0.3s;
   width: 40rem;
   min-height: 30rem;
-  margin:1rem;
+  margin: 1rem;
+  text-align: center;
+  position: relative;
 }
 .fab,
 .fas {
@@ -151,7 +154,8 @@ section > hr {
 }
 
 .container {
-  padding: 2px 16px;
+  padding: 1rem;
+  padding-bottom: 4rem;
 }
 
 /*Mobile Modifiers*/
